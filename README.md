@@ -1,7 +1,7 @@
 
 # TCR/MHC Prediction Models
 
-This repository contains scripts designed to train, evaluate, and visualize models for TCR/MHC interaction predictions. These scripts utilize machine learning classifiers and transform amino acid frequency data to predict TCR/MHC interactions effectively. 
+This repository contains scripts designed to train, evaluate, and visualize models for TCR/MHC interaction predictions. These scripts utilize machine learning classifiers and transform amino acid frequency data to predict TCR/MHC interactions. 
 
 ## Files
 
@@ -52,7 +52,6 @@ python script_name.py <train_path> <test_path> [--output_img <filename>] [--mul_
 - **`train_path`**: Path to the training dataset in CSV format.
 - **`test_path`**: Path to the testing dataset in CSV format.
 - **`--output_img`** (optional): Filename to save the output ROC curve plot. Default is `roc_curve.png`.
-- **`--mul_vals`** (optional): Multiplicative value applied during transformation. Default is 1.
 
 ### Example
 
