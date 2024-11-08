@@ -45,8 +45,8 @@ Using **ANARCI**, you can obtain the specific amino acid positions for your TCR 
 
 Both scripts accept command-line arguments for input paths and parameters. The general syntax is:
 
-\`\`\`bash
-python script_name.py <train_path> <test_path> [--output_img <filename>] [--mul_vals <value>]
+\`\`\`
+python script_name.py <train_path> <test_path> [--output_img <filename>] 
 \`\`\`
 
 - **`train_path`**: Path to the training dataset in CSV format.
@@ -55,9 +55,9 @@ python script_name.py <train_path> <test_path> [--output_img <filename>] [--mul_
 
 ### Example
 
-\`\`\`bash
-python beta.py data/Training_alpha_and_beta_final.csv data/Testing_alpha_and_beta.csv --output_img beta_roc.png --mul_vals 2
-python alpha-beta.py data/Training_alpha_and_beta_final.csv data/Testing_alpha_and_beta.csv --output_img alpha_beta_roc.png --mul_vals 3
+\`\`\`
+python beta.py data/Training_alpha_and_beta_final.csv data/Testing_alpha_and_beta.csv --output_img beta_roc.png
+python alpha-beta.py data/Training_alpha_and_beta_final.csv data/Testing_alpha_and_beta.csv --output_img alpha_beta_roc.png
 \`\`\`
 
 ## How It Works
