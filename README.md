@@ -55,10 +55,12 @@ python script_name.py <train_path> <test_path> [--output_img <filename>]
 
 ### Example
 
-\`\`\`
+`
 python beta.py data/Training_alpha_and_beta_final.csv data/Testing_alpha_and_beta.csv --output_img beta_roc.png
+`
+`
 python alpha-beta.py data/Training_alpha_and_beta_final.csv data/Testing_alpha_and_beta.csv --output_img alpha_beta_roc.png
-\`\`\`
+`
 
 ## How It Works
 
